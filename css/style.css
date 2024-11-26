@@ -4,12 +4,31 @@
     box-sizing: border-box;
 }
 
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
 nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     height: 100px;
     width: 100%;
     background-color: #ff6900;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    color: white;
+    list-style-type: none;
+}
+
+i {
+    display: flex;
+    align-items: center;
+    color: white;
 }
 
 .product_list {
@@ -39,6 +58,7 @@ nav {
     background-color: rgb(14, 12, 12, 0.5);
     display: none;
     z-index: 20;
+    width: 100%;
 }
 
 .product:hover .next_img {
@@ -69,7 +89,7 @@ nav {
     margin-bottom: 40px;
 }
 
-.hearth {
+.heart {
     position: absolute;
     top: 0;
     right: 0;
