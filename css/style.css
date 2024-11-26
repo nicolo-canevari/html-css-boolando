@@ -60,7 +60,14 @@ nav {
     right: 0;
     z-index: 10;
     padding-top: 40px;
-   
+    font-size: 60px;
+    color: black;
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+
+.hearth:hover {
+    color: red;
 }
 
 .text {
