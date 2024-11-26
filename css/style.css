@@ -50,7 +50,7 @@ nav {
     background-color: green;
     color: white;
     font-size: 22px;
-    margin-left: 50px;
+    margin-left: 60px;
     margin-bottom: 40px;
 }
 
@@ -59,11 +59,27 @@ nav {
     top: 0;
     right: 0;
     z-index: 10;
+    padding-top: 40px;
+   
 }
 
+.text {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    align-items: flex-start;    
+}
 
+.new_price {
+    color: red;
+}
 
-/* REGOLE GENERALI */
+.old_price {
+    text-decoration: line-through;
+    color: grey;
+}
+
+/* REGOLE SPECIALI */
 
 .product .img {
     max-width: 100%;
@@ -74,3 +90,15 @@ nav {
     width: 640px;
     height: 924px;
 }
+
+.sustainability_only {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    background-color: green;
+    color: white;
+    font-size: 22px;
+    margin-bottom: 40px;
+}
+
